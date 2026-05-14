@@ -1,0 +1,42 @@
+First 5 Rows:
+   longitude  latitude  housing_median_age  ...  median_income  median_house_value  ocean_proximity
+0    -122.23     37.88                41.0  ...         8.3252            452600.0         NEAR BAY
+1    -122.22     37.86                21.0  ...         8.3014            358500.0         NEAR BAY
+2    -122.24     37.85                52.0  ...         7.2574            352100.0         NEAR BAY
+3    -122.25     37.85                52.0  ...         5.6431            341300.0         NEAR BAY
+4    -122.25     37.85                52.0  ...         3.8462            342200.0         NEAR BAY
+
+[5 rows x 10 columns]
+
+Missing Values:
+longitude               0
+latitude                0
+housing_median_age      0
+total_rooms             0
+total_bedrooms        207
+population              0
+households              0
+median_income           0
+median_house_value      0
+ocean_proximity         0
+dtype: int64
+
+Model Performance:
+MSE: 4908476721.15659
+RMSE: 70060.521844735
+R2 Score: 0.6254240620553626
+
+Actual vs Predicted:
+   Actual Price  Predicted Price
+0       47700.0     54055.448899
+1       45800.0    124225.338937
+2      500001.0    255489.379492
+3      218600.0    268002.431569
+4      278000.0    262769.434816
+5      158700.0    139606.303956
+6      198200.0    290665.423914
+7      157500.0    228264.876375
+8      340000.0    256506.785610
+9      446600.0    407923.858435
+
+✅ Model Completed Successfully!
